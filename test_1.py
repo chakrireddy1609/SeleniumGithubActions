@@ -1,7 +1,6 @@
 import pytest
 from selenium.webdriver.common.by import By
 
-
 @pytest.mark.usefixtures("setup")
 class Test_Sample1():
     def test_title(self):
